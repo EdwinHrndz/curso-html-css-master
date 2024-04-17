@@ -6,11 +6,25 @@
 
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 /* selector de etiqueta */
+
+h1 {
+  background: red;
+  color: white;
+  padding: 10px;
+}
+
+a {
+  font-size: 18px;
+  color: green;
+  text-decoration: none;
+}
+
+footer a {
+  color: red;
+}
 
 /* seletor de id */
 
