@@ -40,5 +40,21 @@ footer a {
 }
 
 /* selector de clase */
+.parrafo {
+  font-style: italic;
+  /* text-decoration: underline; */
+  font-weight: bold;
+  padding: 10px;
+}
+
+.parrafo1,
+.parrafo3 {
+  background-color: green;
+  color: white;
+}
+
+.parrafo3 {
+  background-color: orange;
+}
 
 /* selector de atributo */
