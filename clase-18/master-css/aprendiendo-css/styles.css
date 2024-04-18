@@ -85,3 +85,12 @@ input[type="submit"] {
   border: 1px solid black;
   cursor: pointer;
 }
+
+/* Selectores hijo */
+/* con > seleccionamos solamente los elementos hijo */
+/* vamos a ir al elemento menu, solamente se consideran las li hijos de menu y las a hijos de li */
+#menu > li > a {
+  font-size: 18px;
+  color: red;
+  text-decoration: none;
+}
