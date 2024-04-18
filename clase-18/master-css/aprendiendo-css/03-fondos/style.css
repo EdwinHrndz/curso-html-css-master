@@ -1,0 +1,23 @@
+body {
+  background-color: #ccc;
+  background-image: url("img/fondo.PNG");
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: left bottom;
+  color: rgb(255, 200, 0);
+}
+
+#caja {
+  border: 5px solid black;
+  padding: 10px;
+  background-color: rgb(44, 156, 208);
+  color: white;
+}
+
+h2 {
+  color: rgb(255, 38, 194);
+  background-color: white;
+  border: 5px solid rgb(0, 255, 174);
+  background-image: url("img/fondo2.jpg");
+}
