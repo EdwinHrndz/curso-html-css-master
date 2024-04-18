@@ -94,3 +94,13 @@ input[type="submit"] {
   color: red;
   text-decoration: none;
 }
+
+/* Prioridad */
+/* un apuntador de elemento más especifico prioriza sobre uno más generalizado */
+#saludo h1 {
+  background-color: brown;
+}
+
+h1 {
+  background-color: purple !important;
+}
