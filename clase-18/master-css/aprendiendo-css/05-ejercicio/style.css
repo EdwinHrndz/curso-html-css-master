@@ -79,6 +79,7 @@ Ejercicio completo con html y css
   border-bottom: 1px solid #ccc;
   padding: 15px;
   color: #444;
+  text-shadow: 1px 1px 2px gray;
 }
 
 #lateral {
@@ -92,12 +93,20 @@ Ejercicio completo con html y css
 #contenido .caja {
   width: 40%;
   height: 250px;
-  background-color: red;
-  border: 5px solid blue;
-  color: white;
+  background-color: #ccc;
+  border: 1px solid gray;
   float: left;
   margin: 20px;
   margin-left: 40px;
+  text-align: center;
+  line-height: 200px;
+  color: #444;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 10px gray;
+}
+
+.sombra-interior {
+  box-shadow: 5px 5px 20px gray inset !important;
 }
 
 #footer {
