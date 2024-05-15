@@ -87,7 +87,9 @@ Ejercicio completo con html y css
   width: 30%;
   border: 1px solid red;
   min-height: 500px;
+  max-height: 650px;
   text-align: center;
+  overflow-y: scroll;
 }
 
 #contenido .caja {
