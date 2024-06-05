@@ -19,6 +19,19 @@ body {
   background-image: url("../img/paven.png");
 }
 
+a {
+  color: #529125;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #285616;
+}
+
+a:visited {
+  color: #529125;
+}
+
 /* Formulario */
 input[type="text"],
 input[type="email"],
@@ -196,7 +209,9 @@ button:active {
 }
 
 /* Barra lateral */
-#aside {
+#aside,
+#frase {
+  clear: both;
   width: 200px;
   float: left;
   margin: 30px;
@@ -204,6 +219,13 @@ button:active {
   border: 1px solid #cccccc;
   box-shadow: 0 2px 2px #cccccc;
   font-family: sans-serif, Arial, Helvetica;
+}
+
+#frase {
+  width: 180px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 #aside .widget {
@@ -228,8 +250,42 @@ button:active {
   text-align: center;
   padding-top: 2px;
   padding-bottom: 2px;
+  margin-bottom: 15px;
   background-color: #f2f3f2;
   border: 1px solid #cccccc;
   border-left: none;
   border-right: none;
+}
+
+#aside li {
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  list-style: square;
+}
+
+/* Formularios barra lateral */
+
+#aside div label,
+#aside div input[type="text"],
+#aside div input[type="email"],
+#aside div input[type="password"],
+#aside div a {
+  display: block;
+  width: 95%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#aside div input[type="button"],
+#aside div input[type="submit"],
+#aside div button {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#aside input,
+#aside label {
+  margin: 0 auto;
+  text-align: center;
 }
