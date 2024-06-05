@@ -32,6 +32,14 @@ a:visited {
   color: #529125;
 }
 
+.red {
+  color: #9b2422 !important;
+}
+
+.blue {
+  color: #0c73f2 !important;
+}
+
 /* Formulario */
 input[type="text"],
 input[type="email"],
