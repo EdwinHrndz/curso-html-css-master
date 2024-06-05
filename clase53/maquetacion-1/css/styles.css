@@ -135,3 +135,36 @@ body {
   box-shadow: 0 0 2px #838383 inset;
   background-color: rgb(238, 237, 237);
 }
+
+/* Contenido */
+#content {
+  width: 1250px;
+  height: 1100px;
+  margin: 0 auto;
+}
+
+/* Barra lateral */
+#aside {
+  width: 200px;
+  float: left;
+  margin: 30px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  box-shadow: 0 2px 2px #cccccc;
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+#aside .widget {
+  display: block;
+  width: 180px;
+  margin: 5px auto;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  border-bottom: 1px dashed #333333;
+}
+
+#aside .widget:last-child {
+  margin-bottom: 20px;
+}
